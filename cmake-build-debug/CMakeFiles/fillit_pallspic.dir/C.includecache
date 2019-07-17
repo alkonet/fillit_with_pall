@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gloggins/Documents/fillit_pallspic/includes/fillit.h
+libft.h
+/Users/gloggins/Documents/fillit_pallspic/includes/libft.h
+stdlib.h
+/Users/gloggins/Documents/fillit_pallspic/includes/stdlib.h
+string.h
+-
+unistd.h
+-
+fcntl.h
+/Users/gloggins/Documents/fillit_pallspic/includes/fcntl.h
+stdio.h
+-
+
+/Users/gloggins/Documents/fillit_pallspic/includes/libft.h
+string.h
+-
+
+/Users/gloggins/Documents/fillit_pallspic/src/main.c
+../includes/fillit.h
+/Users/gloggins/Documents/fillit_pallspic/includes/fillit.h
+
